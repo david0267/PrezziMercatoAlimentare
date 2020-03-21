@@ -15,6 +15,7 @@ soup = BeautifulSoup(page.content, 'html.parser')
 print(soup.prettify())
 
 title = soup.find()
+
 #then you need to specify exactly the tags you want
 
 #you define a mail SMTP server and logins
